@@ -5,7 +5,7 @@ A mini file system web server, you can call him Kelvin.
 - `/index.js`, require `babel-core`
 - `/lib/build.js`, transfer from `babel-core`, compatiable with `node: ~v0.12.x`
 
-## Install & Develop
+## Install
 
 Install from npm,
 

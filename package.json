@@ -1,6 +1,6 @@
 {
   "name": "mini-fileSystem-WebServer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A mini file system web server.",
   "main": "index.js",
   "scripts": {
