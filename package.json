@@ -1,0 +1,29 @@
+{
+  "name": "mini-fileSystem-WebServer",
+  "version": "0.0.1",
+  "description": "A mini file system web server.",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel-node index ..",
+    "node": "node lib/index ..",
+    "build": "rm -rf lib/*; babel index.js -o lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barretlee/mini-fileSystem-WebServer.git"
+  },
+  "keywords": [
+    "webserver",
+    "filesystem",
+    "kelvin"
+  ],
+  "author": "Barret Lee <barret.china@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barretlee/mini-fileSystem-WebServer/issues"
+  },
+  "homepage": "https://github.com/barretlee/mini-fileSystem-WebServer",
+  "devDependencies": {
+    "babel-core": "~6.7.6"
+  }
+}
