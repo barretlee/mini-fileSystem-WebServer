@@ -1,11 +1,11 @@
 {
   "name": "mini-fileSystem-WebServer",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "description": "A mini file system web server.",
   "main": "index.js",
   "scripts": {
-    "babel": "babel-node index ..",
-    "node": "node lib/index ..",
+    "babel": "babel-node index ..; open http://localhost:8800;",
+    "node": "node lib/index ..; open http://localhost:8800;",
     "build": "rm -rf lib/*; babel index.js -o lib/index.js"
   },
   "repository": {
